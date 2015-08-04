@@ -1,0 +1,71 @@
+body{
+	background: none;
+}
+
+.background{
+	/*Change background image here*/
+	background: url("mop1.jpg") no-repeat fixed;
+	background-size: cover;
+}
+
+.logo{
+	display: block;
+	margin: 5% auto;
+	width: 300px;
+}
+
+.content h2{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
+.content p{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+.content input{
+	font-family: 'Raleway', sans-serif;
+	margin: 20px auto;
+	width: 300px;
+	height: 32px;
+	padding-left: 15px;
+	display: block;
+	border: none;
+	border-radius: 10px;	
+}
+
+.doneButton {
+
+	font-family: 'Raleway', sans-serif;
+	margin: 10px auto;
+	display: block;
+	color: white;
+	font-size: 20px;
+	background-color: transparent;
+}
+
+.doneButton:hover{
+	background-color: rgb(183, 157, 124);
+	color: white;
+	border-color: rgb(183, 157, 124);
+}
+
+.navbar{
+	background-color: transparent;
+	border-color: transparent;
+}
+
+#Navbar ul li a{
+	color: white;
+}
+
+#Navbar ul li a:hover{
+	background-color: rgb(183, 157, 124);
+	color: white;
+	border-color: rgb(183, 157, 124);
+}

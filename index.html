@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html class="background">
+<head>
+	<title>Epik Cleansing</title>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--Fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+	<script src="/js/velocity.min.js"></script>
+	<script src="/js/velocity.ui.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/script.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#Navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="Navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#careers" data-toggle="modal">Careers</a></li>
+              <li><a href="#" data-target="#contact-us" data-toggle="modal">Contact Us</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+    </nav>
+	<div class="container">
+		<img class="logo" src="logo.png">
+		<div class="content">
+			<h2>We are coming soon.</h2>
+			<p>Let you know when it's done?</p>
+			<input type="text" id="user-id" placeholder="Tell us your email">
+			<button class="btn btn-default doneButton" onclick="sendEmail()">Done!</button>
+		</div>
+		<div id="careers" class="modal" data-easein="flipBounceYIn"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h4 class="modal-title">Careers</h4>
+            </div>
+            <div class="modal-body">
+              <p>If you've heard about us and wish to be a part of our EPIK team, mail us at <br><span class="glyphicon glyphicon-envelope"></span>careers@epikcleansing.com</p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
+          </div>
+        </div>
+        </div>
+      </div>
+      	<div id="contact-us" class="modal" data-easein="flipBounceYIn"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h4 class="modal-title">Contact Us</h4>
+            </div>
+            <div class="modal-body">
+              <p>For anything at all, feel free to mail us at <br><span class="glyphicon glyphicon-envelope"></span>contactus@epikcleansing.com</p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
+          </div>
+        </div>
+        </div>
+      </div>
+		<!--<div class="modal fade" id="contact-us">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button><h3 class="modal-title">Contact Us</h3></div>
+		            <div class="modal-body">-->
+		            <!--Content goes here-->
+		            <!--</div>
+		            <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
+		        </div>
+		    </div>
+		</div>-->
+	</div>
+</body>
+</html>
